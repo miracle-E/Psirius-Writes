@@ -1,0 +1,240 @@
+
+.btn {
+    border-radius: 6px;
+    color: antiquewhite
+}
+.b {
+    width: 500px;
+    height: 70px;
+    margin-top: 80px;
+    border-radius: 8px;
+    font-size: 35px;
+    padding-top: 20px
+
+}
+.ps:hover{
+    color: #000000;
+    width: 100px;
+}
+.brand {
+   font-size: 40px;
+   font-weight: 800;
+   color: rgb(245, 238, 238);
+}
+
+.nav {
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.second-navbar {
+   margin: auto 
+}
+.drop{
+    color: white;
+    font-size:27px;
+    margin-right: 500px;
+}
+.drop:hover{
+    color: gold
+}
+.category-x{
+    border-radius: 6px;
+    margin-top: 20px;
+    color: white !important;
+    /* margin-right: 20% */
+    
+}
+.category-x:hover{
+    color: black;
+    background-color: rgb(121, 200, 214);
+  
+}
+.menu{
+    width: 50;
+    background: rgba(22, 22, 21, 0.521) ;
+    /* border: 2px solid gold; */
+    border-radius: 7px;
+
+  
+}
+
+.sidebar {
+    float: right;
+    width: 300px;
+    background-color: white;
+    height: 1800px;
+    color: white;
+    font-size: 30px
+}
+
+
+.first-page{
+   font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 100px ;
+    font-size: 40px;
+    color: rgb(46, 103, 141)
+}
+
+.div-one {
+    width: 100%;
+    position: relative;
+    height: 1000px;
+    padding-top: 30px;
+    color: rgb(50, 143, 197);
+    text-align: center;
+}
+.first-h{
+    color: rgb(10, 10, 10);
+    font-size: 100px;
+    margin-top: 200px;
+    font-family:  cursive;
+
+}   
+.general-card {
+    /* background-color: #000000; */
+    height: auto  }
+
+.header-two{
+    font-size: 70px;
+    margin-top: 60px;
+}
+
+.navbar-short {
+    min-height: 60px;
+    transition: all .2s;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.photo{
+    width: 900px;
+    height: 900px;
+}
+.cols {
+    background-image: url(../images/kit.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+
+.toolip {
+    display: none;
+    width: 20%;
+    height: 200px;
+    top: 100;
+    right: 0;
+    position: fixed;
+    z-index: 1000;
+    clip-path: polygon(50% 0%, 50% 1%, 100% 1%, 100% 100%, 0 100%, 0 1%, 50% 1%);
+    background-color: #fff;
+}
+.margin-card {
+    margin-top: 20px;
+}
+/* page two */
+.title {
+    margin-top: 100px;
+    margin-left: 290px;
+    color: #b3b3b1;
+    font-size: 60px
+}
+.icon {
+    margin-left: 250px;
+    font-size: 50px;
+    margin-top: 30px
+}
+
+.card-margin {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.card-m {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.forms input{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid rgb(10, 10, 10);
+    outline: none;
+    border-radius: 0;
+}
+.link{
+    text-align: left;
+}
+.form {
+    margin-top: 30px 
+}
+.icon-i {
+    font-size: 120px;    
+}
+.head{
+    font-size: 20px;
+    font-weight: 700
+}
+.publication{
+    padding-top: 20px;
+    padding-left: 100px;
+    font-weight: 900;
+    font-size: 40px
+}
+.navbar{
+    box-shadow: 1px 2px 3px 1px rgb(250, 245, 245);
+}
+
+.header {
+    font-size: 25px;
+    font-weight: 700;
+}
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.dropbtn {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: transparent;
+  }
+  
